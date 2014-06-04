@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+		<form style="border: 3px solid #aaa; background:#eee; margin:auto; padding: 10px"> 
+			<input type="label" value="Enter your Message:" /> <input type="text" value=""/>
+			<input type="label" value="Password:" /> <input type="password" value=""/>
+			<input type="submit" value="Submit your message" />
+		</form>
+	</g:HTMLPanel>
+</ui:UiBinder> 
